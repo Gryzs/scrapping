@@ -40,7 +40,6 @@ with pd.ExcelWriter('dados_coletados.xlsx') as writer:
         else:
             print(f"Erro ao acessar a página para a tag {tag}")
         
-        # Adicionar um atraso de 1 segundo antes da próxima solicitação
         time.sleep(1)
 
 print("Dados salvos na planilha 'Dados' do arquivo dados_coletados.xlsx")
